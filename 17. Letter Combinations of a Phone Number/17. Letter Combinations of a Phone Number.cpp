@@ -16,4 +16,4 @@ public:
         for(int i = 0; i < list[digits[l] - '0'].length(); i++) letter(l+1,L,S + list[digits[l] - '0'][i], output,digits, list);
     }
 };
-//回顾了字符串的用法 不知道为什么字符串数组的应用要用list[] 这个方法也不是很简洁
+//回顾了字符串的用法 不知道为什么字符串数组的应用要用list[] 这个方法也不是很简洁 最重要的是将char类型转换成int 这里是使用的别人的-'0'方法 计算ASCII码的差值来实现的
