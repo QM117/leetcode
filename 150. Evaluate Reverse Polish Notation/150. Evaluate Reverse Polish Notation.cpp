@@ -23,4 +23,4 @@ public:
 
     }
 };
-//主要问题是string转int 之前可以用- '0' 的方法 这里只能用atoi了
+//主要问题是string转int 之前用- '0' 的方法来处理char类型 string  是 class. 不能相减。 这里只能用atoi了
